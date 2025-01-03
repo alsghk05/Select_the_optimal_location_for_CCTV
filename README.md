@@ -1,0 +1,1 @@
+# Selecting-the-optimal-location-for-CCTV-in-Jinju-City-based-on-priority-for-crime-prevention
