@@ -1,4 +1,4 @@
-# Selecting-the-optimal-location-for-CCTV-in-Jinju-City-based-on-priority-for-crime-prevention
+# 범죄 예방을 위한 우선 순위 기반 진주시 CCTV 최적 입지 선정
 
 - 2024.06.03 ~ 2024.08.13
 - 제한된 예산으로 범죄 예방 효과를 극대화할 수 있도록 CCTV 최적 설치 위치를 분석하고 우선순위를 기반으로 최적 위치를 제시함
