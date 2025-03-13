@@ -1,1 +1,56 @@
 # Selecting-the-optimal-location-for-CCTV-in-Jinju-City-based-on-priority-for-crime-prevention
+
+- 2024.06.03 ~ 2024.08.13
+- 제한된 예산으로 범죄 예방 효과를 극대화할 수 있도록 CCTV 최적 설치 위치를 분석하고 우선순위를 기반으로 최적 위치를 제시함
+
+> **핵심 전략**
+> 
+> 1. **진주시에 최적화된 분석**
+>     - 진주시에 최적화된 분석을 위해 범죄와 각 지수별 correlation을 활용하여 감시 필요 요인 지수의 가중치로 사용
+>     1. 범죄 발생 데이터와 각 지표 간 상관관계를 분석하여 **영향력이 높은 요인에 가중치를 부여**
+>     2. Pearson 상관계수를 기반으로 변수를 선별하고, 높은 상관관계를 보이는 변수에 더 높은 가중치를 적용하여 감시 필요 지수를 산출
+> 2. **범죄 예방에 초점 맞추기**
+>     - 기존 연구에서 **범죄와 밀접한 요인**(1인 가구, 유치원 현황 등)을 참고하여 추가 데이터를 확보
+>     1. Jenks Natural Breaks 알고리즘을 이용하여 수집된 데이터를 기반으로 최적의 지표 구간을 설정하여 분석의 신뢰성을 높임
+
+### 1. 개발 배경
+
+- 진주 시민들의 높은 안전 인식률에 반해 진주시는 범죄 분야에서 3년 연속 최하위 등급을 기록함
+- 이를 해소하고자 3가지 요인(범죄 취약 요인,감시 취약 요인,감시 필요 요인)을 고려하여 CCTV 최적 입지 산출 및 우선순위 선정하고자 함
+
+### 2. 기대 효과
+
+- 범죄 예방 및 검거
+    - CCTV 최적 입지 선정을 통해 범죄 검거율 최대화
+    - CCTV를 통해 감시 시스템이 작동하고 있다는 인식을 제공하여 범인의 범죄 기회 감소
+- 비용 절감
+    - CCTV 설치 우선 순위에 기반한 한정된 예산 최소화 및 최대 활용
+    - 분석 커리큘럼에 따라 일회성이 아닌 시간이 지남에 따른 지속적인 분석 및 위치 선정이 가능
+
+### 3. 아키텍쳐
+
+- 데이터 수집 및 전처리 → corrleation 분석 → 지수 요인 결정 및 Jenks Natural Breaks알고리즘 이용하여 지수 산출 → QGIS를 활용하여 공간분석 → CCTV 최적 설치 위치 도출
+- EDA를 통한 가좌동 범죄 발생 데이터 추가 분석
+
+### 4. 사용 기술
+
+- QGIS, Python, Data Preprocessing, EDA, Data visualization
+
+### 5. 라이브러리
+
+- Numpy, Scipy, Pandas, geopandas, Sklearn, Matplotlib, Seaborn
+
+### 6. 개발 환경
+
+- 언어 : Python 3.10.9
+- OS : Window 11
+- IDE : Jupyter Notebook, VS Code, QGIS
+
+<aside>
+🚀
+
+### **성과**
+
+- **빅데이터로 우리동네 문제해결 아이디어 공모대회 우수상** ([뉴스 기사](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003054483))
+- **해당 아이디어로 진주 경찰서와 협력하여 범죄 예방 시설물 제작 및 설치** ([뉴스 기사](https://www.veritas-a.com/news/articleView.html?idxno=543978)) ([뉴스 인터뷰](https://www.youtube.com/watch?v=UK2FhQvwLdQ))
+</aside>
