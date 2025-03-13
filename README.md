@@ -47,9 +47,9 @@
 - IDE : Jupyter Notebook, VS Code, QGIS
 
 <aside>
-🚀
 
-### **성과**
+
+### **🚀성과**
 
 - **빅데이터로 우리동네 문제해결 아이디어 공모대회 우수상** ([뉴스 기사](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003054483))
 - **해당 아이디어로 진주 경찰서와 협력하여 범죄 예방 시설물 제작 및 설치** ([뉴스 기사](https://www.veritas-a.com/news/articleView.html?idxno=543978)) ([뉴스 인터뷰](https://www.youtube.com/watch?v=UK2FhQvwLdQ))
